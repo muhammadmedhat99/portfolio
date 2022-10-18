@@ -8,6 +8,7 @@ import lowCost from "../assets/img/low-cost.PNG"
 import dook from "../assets/img/dook.PNG"
 import noah from "../assets/img/Capture.PNG"
 import personal from "../assets/img/personal.PNG"
+import heroes from "../assets/img/hereos.PNG"
 import commerce from "../assets/img/ecommerce.PNG"
 import nikeStore from "../assets/img/nikeStore.PNG"
 import landing1 from "../assets/img/New Bitmap Image (3).bmp"
@@ -73,6 +74,11 @@ export const Projects = () => {
       title: "Personal Portfolio",
       description: "My Personal Portfolio",
       imgUrl: personal,
+    },
+    {
+      title: "Heroes GYM",
+      description: "Full Responsive Website For Gym And Home Workout",
+      imgUrl: heroes,
     },
     {
       title: "E-commerce",
@@ -149,6 +155,11 @@ export const Projects = () => {
       title: "E-commerce",
       description: "Full Responsive Ecommrce with react hooks and redux toolkit (apis)",
       imgUrl: commerce,
+    },
+    {
+      title: "Heroes GYM",
+      description: "Full Responsive Website For Gym And Home Workout",
+      imgUrl: heroes,
     },
   ]
 
