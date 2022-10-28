@@ -14,6 +14,7 @@ import nikeStore from "../assets/img/nikeStore.PNG"
 import landing1 from "../assets/img/New Bitmap Image (3).bmp"
 import landing2 from "../assets/img/roject-3.bmp"
 import landing3 from "../assets/img/New Bitmap Image (2).bmp"
+import lyriks from "../assets/img/lyriks.PNG"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -44,6 +45,11 @@ export const Projects = () => {
       title: "Dook App",
       description: "Design & Development",
       imgUrl: dook,
+    },
+    {
+      title: "Lyriks App",
+      description: "Shazam API Full Respinsive Website",
+      imgUrl: lyriks,
     },
     {
       title: "Noah Azure",
@@ -160,6 +166,11 @@ export const Projects = () => {
       title: "Heroes GYM",
       description: "Full Responsive Website For Gym And Home Workout",
       imgUrl: heroes,
+    },
+    {
+      title: "Lyriks App",
+      description: "Shazam API Full Respinsive Website",
+      imgUrl: lyriks,
     },
   ]
 
