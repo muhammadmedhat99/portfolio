@@ -15,6 +15,8 @@ import landing1 from "../assets/img/New Bitmap Image (3).bmp"
 import landing2 from "../assets/img/roject-3.bmp"
 import landing3 from "../assets/img/New Bitmap Image (2).bmp"
 import lyriks from "../assets/img/lyriks.PNG"
+import nike from "../assets/img/nike.PNG"
+import film from "../assets/img/film.PNG"
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -57,29 +59,9 @@ export const Projects = () => {
       imgUrl: noah,
     },
     {
-      title: "Nike Store Clone",
-      description: "Design & Development",
-      imgUrl: nikeStore,
-    },
-    {
       title: "Landing Page",
       description: "Design & Development",
       imgUrl: landing1,
-    },
-    {
-      title: "Landing Page",
-      description: "Design & Development",
-      imgUrl: landing2,
-    },
-    {
-      title: "Landing Page",
-      description: "Design & Development",
-      imgUrl: landing3,
-    },
-    {
-      title: "Personal Portfolio",
-      description: "My Personal Portfolio",
-      imgUrl: personal,
     },
     {
       title: "Heroes GYM",
@@ -90,6 +72,16 @@ export const Projects = () => {
       title: "E-commerce",
       description: "Full Responsive Ecommrce with react hooks and redux toolkit (apis)",
       imgUrl: commerce,
+    },
+    {
+      title: "Nike Clone",
+      description: "Full Responsive nike clone with redux toolkit",
+      imgUrl: nike,
+    },
+    {
+      title: "Filmora",
+      description: "Full Responsive Film App With tmdb api's",
+      imgUrl: film,
     },
   ];
 
@@ -153,11 +145,6 @@ export const Projects = () => {
       imgUrl: noah,
     },
     {
-      title: "Personal Portfolio",
-      description: "My Personal Portfolio",
-      imgUrl: personal,
-    },
-    {
       title: "E-commerce",
       description: "Full Responsive Ecommrce with react hooks and redux toolkit (apis)",
       imgUrl: commerce,
@@ -171,6 +158,16 @@ export const Projects = () => {
       title: "Lyriks App",
       description: "Shazam API Full Respinsive Website",
       imgUrl: lyriks,
+    },
+    {
+      title: "Nike Clone",
+      description: "Full Responsive nike clone with redux toolkit",
+      imgUrl: nike,
+    },
+    {
+      title: "Filmora",
+      description: "Full Responsive Film App With tmdb api's",
+      imgUrl: film,
     },
   ]
 
