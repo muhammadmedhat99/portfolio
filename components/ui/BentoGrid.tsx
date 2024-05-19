@@ -1,14 +1,15 @@
 import { useState } from "react";
-// Also install this npm i --save-dev @types/react-lottie
-import { cn } from "@/utils/cn";
+import { IoCopyOutline } from "react-icons/io5";
 
+// Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
 
-import {GridGlobe} from "./grid-globe";
+import { cn } from "@/lib/utils";
+
+import { BackgroundGradientAnimation } from "./GradientBg";
+import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
-import { BackgroundGradientAnimation } from "./gradient-bg";
-import { Copy } from "iconsax-react";
 
 export const BentoGrid = ({
   className,
@@ -20,7 +21,6 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        // change gap-4 to gap-8, change grid-cols-3 to grid-cols-5, remove md:auto-rows-[18rem], add responsive code
         "grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto",
         className
       )}
@@ -50,8 +50,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "Next JS", "Typescript"];
+  const rightLists = ["Redux", "Tailwind", "Git & Github"];
 
   const [copied, setCopied] = useState(false);
 
@@ -65,7 +65,7 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "muhammadmedhat12@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
@@ -185,7 +185,7 @@ export const BentoGridItem = ({
 
               <MagicButton
                 title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<Copy />}
+                icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
