@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Elhussenee Dashboard",
     des: "Fully functional control panel with nextjs framework.",
-    img: "/Screenshot from 2024-05-20 00-21-24.png",
+    img: "/pr1.webp",
     iconLists: [
       "/next.svg",
       "/tail.svg",
@@ -88,7 +88,7 @@ export const projects = [
     id: 2,
     title: "Maflam",
     des: "A Saudi platform to enable filmmakers to gain experience and knowledge.",
-    img: "/maflam.vercel.app_.png",
+    img: "/pr2.webp",
     iconLists: ["/next.svg", "/tail.svg", "/fm.svg", "/stream.svg", "/c.svg"],
     link: "https://maflam.vercel.app/",
   },
@@ -96,7 +96,7 @@ export const projects = [
     id: 3,
     title: "Seenapay Website",
     des: "Convert Wix Design Into Fully Responsive Nextjs Website.",
-    img: "/Screenshot from 2024-05-20 00-35-15.png",
+    img: "/pr4.webp",
     iconLists: [
       "/next.svg",
       "/tail.svg",
@@ -109,8 +109,50 @@ export const projects = [
   {
     id: 4,
     title: "Eisa Cayan",
-    des: "Fully Responsive Web design Online Shop.",
-    img: "/webdesign.be4em.info_cayaan_.png",
+    des: "Fully Responsive Web Design Online Shop.",
+    img: "/pr3.webp",
+    iconLists: [
+      "/html.svg",
+      "/css-3.svg",
+      "/logo-javascript.svg",
+      "/jquery-4.svg",
+      "/gsap.svg",
+    ],
+    link: "https://webdesign.be4em.info/cayaan/",
+  },
+  {
+    id: 5,
+    title: "Zahraa Academy",
+    des: "Fully Responsive E-Learning Management System",
+    img: "/pr5.webp",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/fm.svg",
+      "/react-query-seeklogo.svg",
+      "/c.svg",
+    ],
+    link: "https://www.zahraacademy.com/",
+  },
+  {
+    id: 6,
+    title: "Penguin",
+    des: "Fully Responsive Web Design Online Shop.",
+    img: "/pr6.webp",
+    iconLists: [
+      "/html.svg",
+      "/css-3.svg",
+      "/logo-javascript.svg",
+      "/jquery-4.svg",
+      "/gsap.svg",
+    ],
+    link: "https://webdesign.be4em.info/penguin/",
+  },
+  {
+    id: 7,
+    title: "Odd Menu",
+    des: "Fully Responsive Online Menus Website",
+    img: "/pr7.webp",
     iconLists: [
       "/next.svg",
       "/tail.svg",
@@ -118,7 +160,7 @@ export const projects = [
       "/react-query-seeklogo.svg",
       "/gsap.svg",
     ],
-    link: "https://webdesign.be4em.info/cayaan/",
+    link: "https://oddmenu.vercel.app/",
   },
 ];
 
